@@ -62,6 +62,9 @@ nav {
     border-bottom: 2px solid var(--color-secondar);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
 
   nav ul {
     display: flex;
@@ -148,27 +151,38 @@ nav {
     margin-top: 100px;
 }
 
-.education p{
-    margin-left: 0px;
-    margin-top: 40px;
-    line-height: var(--line-height);
-    display: flex;
-    flex-direction: column;
-    padding: 0.3rem 0;
-    width: 30rem;
-    padding: 0.625rem;
-    border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-}
 
 .education img{
     margin-left: 130px;
     padding: 1.25rem;  
 }
+.education h1{
+  margin-top:100px;
+  color:var(--color-introhead);
+}
 .education h2{
-
+  margin-top:100px;
     color:var(--color-introhead);
 }
+.education hr{
+  width:80%;
+  height:1px;
+  background-color:aqua;
+}
+
+.education p{
+  margin-left: 0px;
+  margin-top: 40px;
+  line-height: var(--line-height);
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem 0;
+  width: 30rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
 .education p1{
     margin-left: 20px;
     line-height: var(--line-height);
@@ -185,17 +199,23 @@ nav {
     font-weight: var(--bold-font);
 }
 
+.skill hr{
+  width:80%;
+  height:1px;
+  background-color:aqua;
+}
 
   .skills {
     max-width: 68.75rem;
     margin:auto;
     text-align: center;
     margin-top: 10rem;
+
   }
   
   .skill-header {
     color:var(--color-introhead);
-    margin-top:-50px;
+    margin-top:100px;
     margin-bottom: 1rem;
   }
   
@@ -208,13 +228,19 @@ nav {
     height: 11.25rem;
   }
 
+  .work hr{
+    width:80%;
+    height:1px;
+    background-color:aqua;
+  }
+  
   .work{
-    margin-top: 30px;
+    margin-top: 130px;
     margin-left:700px;
   }
   
   .work h1{
-    margin-top:30px;
+    margin-top:100px;
     color:var(--color-introhead);
   }
   
@@ -267,6 +293,12 @@ nav {
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   }
+  .project hr{
+    width:80%;
+    height:1px;
+    background-color:aqua;
+  }
+  
   .project{
     margin-left:700px;
     margin-top:100px;
@@ -275,8 +307,11 @@ nav {
   }  
 
   .project h1{
+    margin-top:100px;
     color:var(--color-introhead);
   }
+
+
   .project t{
     margin-top:30px;
     font-weight: var(--bold-font);
@@ -419,4 +454,26 @@ nav {
     padding: 15px;  
     width:400px;
     height:auto;
+  }
+
+  .contact hr{
+    width:80%;
+    height:1px;
+    background-color:aqua;
+  }
+  .contact{
+    margin-top:50px;
+    margin-left:700px;
+
+  }
+  .contact h1{
+    margin-top:100px;
+    color:var(--color-introhead);
+  }
+  .contact p1{
+    margin-top:10px;
+    margin-left:20px;
+    line-height: var(--line-height);
+    display: flex;
+    flex-direction: column;
   }
