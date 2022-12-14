@@ -491,4 +491,28 @@ nav ul li {
   line-height: var(--line-height);
   display: flex;
   flex-direction: column;
+}
+
+.project4 {
+  margin-left: 700px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project4 p1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: var(--line-height);
+  display: flex;
+  flex-direction: column;
+}
+
+.project4 t {
+  margin-top: 30px;
+  font-weight: var(--bold-font);
+}
+
+.project4 time {
+  margin-left: 770px;
 }/*# sourceMappingURL=styles.css.map */
